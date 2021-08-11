@@ -43,15 +43,15 @@
             <div class="fondoFormulario">
             <form class="formularioLogin" action="/" method="GET">
                 <label class="espaciado">Nombre y apellido</label>
-                 <input type="text" name="NyA" placeholder="Juan Perez">
+                 <input class="caja" type="text" name="NyA" placeholder="Juan Perez">
                  <label class="espaciado">Nombre de usuario</label>
-                 <input type="text" name="Usuario" placeholder="JuanPe">
+                 <input class="caja" type="text" name="Usuario" placeholder="JuanPerez">
                  <label class="espaciado">Fecha de nacimiento</label>
-                 <input type="date" name="FechaDeNacimiento">
+                 <input class="caja" type="date" name="FechaDeNacimiento">
                  <label class="espaciado">Domicilio</label>
-                 <input type="text" name="Domicilio" placeholder="Calle False 123">
+                 <input class="caja" type="text" name="Domicilio" placeholder="Pedro Goyena 333">
                  <label class="espaciado">Perfil de usuario:</label>
-                 <label> Comprador <input type="radio" name="PerfilUsuario">  </label>
+                 <label> Comprador <input type="radio" name="PerfilUsuario" checked>  </label>
                 <label> Vendedor <input type="radio" name="PerfilUsuario">  </label>
                 <label class="espaciado">Categorias de interés</label>
                  <label>Electro <input type="checkbox" name="Interes">  </label>
@@ -62,9 +62,9 @@
                 <label class="espaciado">Foto de usuario</label>
                 <input type="file" name="fotodeperfil" accept=".jpg, .png">
                 <label class="espaciado">Contraseña</label>
-                <input type="password" name="contraseña" placeholder="contraseña">
+                <input class="caja" type="password" name="contraseña" placeholder="contraseña">
                 <label class="espaciado">Confirmar contraseña</label>
-                <input type="password" name="confirmarcontraseña" placeholder="confirmar contraseña">
+                <input class="caja" type="password" name="confirmarcontraseña" placeholder="confirmar contraseña">
                 <button class="boton" type="submit" name="Enviar">Enviar</button>
                 <button class="boton" type="reset" name="Borrar">Borrar</button>
             </form>

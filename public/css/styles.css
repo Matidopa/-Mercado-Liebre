@@ -345,9 +345,15 @@ display:none;
 .boton:hover{
     background-color: #0022AA;
 }
+.fondoFormulario .caja{
+    width: 50vw;
+}
 @media(min-width: 769px){
     .fondoFormulario{
         width: 500px;
+    }
+    .fondoFormulario .caja{
+        width: 400px;
     }
 }
 
@@ -362,13 +368,15 @@ display:none;
 }
 
 .login input {
-    padding-top: 12px;
+    padding:1%;
     margin-bottom:25px ;
 }
 
 .login .boton{
     margin-left: 25%;
 }
-
+.login input ,.NombreDeUsuario,.Contraseña{
+font-size:16px;
+}
 
 
