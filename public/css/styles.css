@@ -290,6 +290,7 @@ footer .fas {
     padding: 10px;
     margin: 10px;
     flex-direction: column;
+    font-size: 20px;
 }
 
 .espaciado {
@@ -301,7 +302,7 @@ footer .fas {
 .fondoFormulario {
     display: flex;
     flex-wrap: wrap;
-    max-width: 70%;
+    max-width: 85%;
     align-self: center;
     justify-content: center;
     background-color: white;
@@ -347,6 +348,7 @@ display:none;
 }
 .fondoFormulario .caja{
     width: 50vw;
+    font-size: 20px;
 }
 @media(min-width: 769px){
     .fondoFormulario{
